@@ -4,8 +4,8 @@
 
 body { 
   height: 100vh; 
-  width: 100vw; 
-  background-color: lightgray; 
+  width: 100vw;
+  background-image: url("./assets/guille-pozzi-sbcIAn4Mn14-unsplash.jpg"); 
   margin: 0; 
 } 
 
@@ -16,6 +16,11 @@ body {
   display: flex;
   flex-direction: row; 
 } 
+
+.card-page-header {
+  padding-left: 5%;
+  color: white;
+}
 
 .header-left {
   height: 100%;
@@ -50,6 +55,15 @@ body {
   align-items: flex-end;
   color: lightgray;
   padding-right: 3%;
+}
+
+.lower-right {
+  width: 30%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .login {
@@ -173,7 +187,6 @@ main {
 }
 
 .url-link {
-  /* border: solid 2px black; */
   height: 20%;
   width: 90%;
   display: flex;
@@ -185,7 +198,6 @@ main {
 }
 
 .playlist {
-  /* border: solid 2px black; */
   height: 24%;
   width: 100%;
   display: flex;
